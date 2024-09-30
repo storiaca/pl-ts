@@ -27,3 +27,9 @@ npx prisma init --datasource-provider sqlite
 ```bash
 npx prisma db push
 ```
+
+### Command for db seed
+
+```bash
+npx prisma db seed
+```

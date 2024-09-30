@@ -11,7 +11,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.ts"
+    "dev": "nodemon src/index.ts",
+    "dev-2": "nodemon --watch src --exec tsc --noEmit && node --loader ts-node/esm ./src/index.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.20.0",
@@ -28,6 +29,7 @@
     "esbuild-register": "^3.6.0",
     "nodemon": "^3.1.7",
     "prisma": "^5.20.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
   }
 }
