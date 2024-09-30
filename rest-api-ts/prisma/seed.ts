@@ -27,7 +27,23 @@ async function seed() {
       firstName: "Yuval Noah",
     },
   });
+
+  await Promise.all(
+    getBooks().map((book) => {
+      const { title, isFiction, datePublished } = book;
+      return db.book.create({
+        data: {
+          title,
+          isFiction,
+          datePublished,
+          authorId: author.id,
+        },
+      });
+    })
+  );
 }
+
+seed();
 
 function getAuthors(): Array<Author> {
   return [
