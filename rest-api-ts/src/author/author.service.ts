@@ -6,7 +6,7 @@ type Author = {
   lastName: string;
 };
 
-const listAuthors = async (): Promise<Author[]> => {
+export const listAuthors = async (): Promise<Author[]> => {
   return db.author.findMany({
     select: {
       id: true,
@@ -15,4 +15,3 @@ const listAuthors = async (): Promise<Author[]> => {
     },
   });
 };
-// 36:56
