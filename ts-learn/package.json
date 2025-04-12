@@ -1,0 +1,17 @@
+{
+  "name": "ts-learn",
+  "version": "1.0.0",
+  "description": "Video: <https://www.youtube.com/watch?v=P_NEddIVRzA&t=7s&ab_channel=ItMentorstva>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.5",
+    "webpack-cli": "^6.0.1"
+  }
+}
