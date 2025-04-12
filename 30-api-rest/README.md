@@ -2,4 +2,4 @@
 
 ## Video link
 
-https://www.youtube.com/watch?v=TzvPIUyh-AI&ab_channel=TheOpinionatedDev
+<https://www.youtube.com/watch?v=TzvPIUyh-AI&ab_channel=TheOpinionatedDev>

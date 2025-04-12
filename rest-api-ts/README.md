@@ -2,19 +2,19 @@
 
 ## Link of video
 
-https://www.youtube.com/watch?v=PM58NEMJgMw&ab_channel=rithmic
+<https://www.youtube.com/watch?v=PM58NEMJgMw&ab_channel=rithmic>
 
 ## Code
 
-https://github.com/sixfwa/express-typescript-api
+<https://github.com/sixfwa/express-typescript-api>
 
 ## Prisma
 
-https://www.prisma.io/docs/orm/overview/databases/sqlite
+<https://www.prisma.io/docs/orm/overview/databases/sqlite>
 
 ## Sqlite
 
-https://ultahost.com/knowledge-base/install-sqlite-on-ubuntu/
+<https://ultahost.com/knowledge-base/install-sqlite-on-ubuntu/>
 
 ### Command for prisma init
 

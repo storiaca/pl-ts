@@ -2,7 +2,7 @@
 
 ## Video link
 
-https://www.youtube.com/watch?v=Be7X6QJusJA&ab_channel=AnsontheDeveloper
+<https://www.youtube.com/watch?v=Be7X6QJusJA&ab_channel=AnsontheDeveloper>
 
 ## Init typescript config file
 
